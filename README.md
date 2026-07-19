@@ -189,11 +189,11 @@ Consulta `version_info.txt` para la versión actual. Ejemplo de entradas de chan
 
 Indica la licencia del proyecto (por ejemplo MIT). Autores:
 
-- Nombre del autor / mantenedor — correo@ejemplo.com
+- Nombre del autor / mantenedor — malagonsxp@hotmail,com
 
 ## Contacto
 
-Abre un issue en el repositorio GitHub o envía un email a correo@ejemplo.com para soporte.
+Abre un issue en el repositorio GitHub o envía un email a malagonsxp@hotmail,com para soporte.
 
 ---
 
