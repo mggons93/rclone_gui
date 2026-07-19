@@ -38,6 +38,9 @@ Rclone GUI es una interfaz gráfica (GUI) y herramienta auxiliar para gestionar 
 - Guardado y gestión de configuraciones locales (`rclone.conf`, `rclone_gui_config.json`).
 - Logs y panel de estado para ver transferencias en tiempo real.
 - Interfaz ligera y multiplataforma (usa `rclone` como backend).
+<p align="center">
+<a href=></a><img src="https://github.com/mggons93/rclone_gui/blob/main/img/captura3.PNG"/>
+</p>
 
 ## Integración con rclone
 
