@@ -1,6 +1,6 @@
 # Rclone GUI — Interfaz gráfica para rclone
 <p align="center">
-![screenshot](https://github.com/mggons93/rclone_gui/blob/main/img/captura1.PNG?raw=true)
+<a href=></a><img src="https://github.com/mggons93/rclone_gui/blob/main/img/captura1.PNG"/>
 </p>
 ## Descripción
 
