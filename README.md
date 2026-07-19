@@ -2,7 +2,6 @@
 <p align="center">
 <a href=></a><img src="https://github.com/mggons93/rclone_gui/blob/main/img/captura1.PNG"/>
 <a href=></a><img src="https://github.com/mggons93/rclone_gui/blob/main/img/captura2.PNG"/>
-<a href=></a><img src="https://github.com/mggons93/rclone_gui/blob/main/img/captura3.PNG"/>
 </p>
 
 ## Descripción
