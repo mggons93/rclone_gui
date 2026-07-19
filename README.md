@@ -58,8 +58,6 @@ rclone copy "C:/Mi/Carpeta" "remote:backup/Carpeta" --progress --config "./rclon
 4. Elegir operación (`sync`, `copy`, `check`) y opciones avanzadas.
 5. Ejecutar y seguir el progreso en el panel de logs.
 
-![screenshot](docs/screenshot.png)
-
 ## Uso por línea de comandos
 
 Aunque la intención principal es la GUI, la aplicación incluye utilidades y scripts que pueden ejecutarse por CLI.
