@@ -49,12 +49,6 @@ El programa actúa como frontend para `rclone`, invocando el binario de `rclone`
 - Ejecuta comandos como `rclone sync`, `rclone copy`, `rclone ls`, `rclone mount`.
 - Interpreta códigos de salida y captura stdout/stderr para mostrar logs en la GUI.
 
-Ejemplo de invocación (interno de la aplicación):
-
-```bash
-rclone copy "C:/Mi/Carpeta" "remote:backup/Carpeta" --progress --config "./rclone.conf"
-```
-
 ## Interfaz y flujo de uso
 
 1. Abrir la aplicación (`Rclone_GUI_2.0.py` o el ejecutable generado).
