@@ -61,43 +61,11 @@ El programa actúa como frontend para `rclone`, invocando el binario de `rclone`
 
 Aunque la intención principal es la GUI, la aplicación incluye utilidades y scripts que pueden ejecutarse por CLI.
 
-Ejemplos:
-
-```bash
-# Ejecutar la GUI (Python)
-python Rclone_GUI_2.0.py
-```
-
 ## Instalación
 
 Requisitos previos:
 
-- Python 3.8+ (recomendado 3.10+)
 - rclone (instalado y accesible en PATH)
-
-Instalación en Windows (rápida):
-
-```powershell
-# Instala dependencias si el proyecto incluye requirements.txt
-python -m pip install -r requirements.txt
-
-# Ejecuta la GUI
-python Rclone_GUI_2.0.py
-```
-
-Linux / macOS:
-
-```bash
-python3 -m pip install -r requirements.txt
-python3 Rclone_GUI_2.0.py
-```
-
-Usar los scripts de build (Windows):
-
-```powershell
-.\build_debug.bat      # empaqueta en modo debug para pruebas
-.\build_rclone_gui.bat # empaqueta la GUI para distribución
-```
 
 ## Configuración
 
@@ -121,30 +89,7 @@ endpoint =
 
 Ejemplo `rclone_gui_config.json`:
 
-```json
-{
-  "last_source": "C:/Mi/Carpeta",
-  "last_destination": "remote:backup/Carpeta",
-  "rclone_path": "rclone",
-  "log_level": "INFO"
-}
-```
-
 Nota: No incluyas credenciales en repositorios públicos. Usa variables de entorno o archivos ignorados por git.
-
-## Empaquetado y distribución
-
-El repo incluye archivos `.spec` (posiblemente para PyInstaller). Los artefactos generados aparecen en `build/`.
-
-Pasos generales para crear un ejecutable (ejemplo genérico):
-
-```bash
-pyinstaller --onefile --name "Rclone GUI V2.0" Rclone_GUI_2.0.py
-```
-
-O usar los scripts incluidos en Windows: `build_debug.bat` y `build_rclone_gui.bat`.
-
-## Ejemplos prácticos y casos de uso
 
 - Copia local a remoto:
 
@@ -152,11 +97,7 @@ O usar los scripts incluidos en Windows: `build_debug.bat` y `build_rclone_gui.b
 rclone copy "C:/Fotos" "remote:backup/fotos" --progress
 ```
 
-- Sincronizar carpetas remotas:
-
-```bash
-rclone sync "remoteA:carpeta/" "remoteB:carpeta/" --transfers=8 --checksum
-```
+- Sincronizar carpetas remotas
 
 ## Resolución de problemas
 
